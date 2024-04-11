@@ -17,6 +17,27 @@ class LoginScreen extends StatelessWidget {
               color: Colors.white,
               fontFamily: 'pacifico',
             ),
+          ),
+          Text(
+            'LOGIN',
+            style: TextStyle(
+              fontSize: 24,
+              color: Colors.white,
+            ),
+          ),
+          TextField(
+            decoration: InputDecoration(
+              enabledBorder: OutlineInputBorder(
+                borderSide: BorderSide(
+                  color: Colors.white,
+                ),
+              ),
+              border: OutlineInputBorder(
+                borderSide: BorderSide(
+                  color: Colors.white,
+                ),
+              ),
+            ),
           )
         ],
       ),
